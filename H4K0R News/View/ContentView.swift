@@ -22,7 +22,7 @@ struct ContentView: View {
             }
             .navigationTitle("H4K0R NEWS")
         }
-        .onAppear {
+        .onAppear { //viewDidLoad랑 비슷하게 실행
             self.netWorkManger.fetchData()
         }
         
